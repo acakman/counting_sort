@@ -48,7 +48,7 @@ def createArray(count, maximum):
     return randomArray
 
 
-array = createArray(1000, 999999999999)
+array = createArray(1000, 9999)
 maximumInteger = max(array)
 timerStart = default_timer()
 countingSort(array, maximumInteger)
